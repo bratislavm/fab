@@ -5,8 +5,6 @@ from fabric.utils import warn
 
 env.user='root'
 
-#env.hosts=["sweps.ece.mcgill.ca","storm.ece.mcgill.ca"]
-#env.hosts=["jupiter.ece.mcgill.ca"]
 env.roledefs={
 	'web':['sweps.ece.mcgill.ca'],
 }
