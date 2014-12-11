@@ -9,14 +9,6 @@ env.user='root'
 #env.hosts=["jupiter.ece.mcgill.ca"]
 env.roledefs={
 	'web':['sweps.ece.mcgill.ca'],
-	'compute': ['jupiter.ece.mcgill.ca','tri.ece.mcgill.ca','quartet.ece.mcgill.ca','chamonix.ece.mcgil.ca','c01.ece.mcgill.ca','c03.ece.mcgill.ca','c04.ece.mcgill.ca','driver.ece.mcgill.ca','duet.ece.mcgill.ca','jupiter.ece.mcgill.ca','lisa.mcgill.ca','monster.ece.mcgill.ca','c017.ece.mcgill.ca','quartet.ece.mcgill.ca','ricky.ece.mcgill.ca'],
-	'storm': ['storm.ece.mcgill.ca'],
-	'tabots':['mm-tabot.ece.mcgill.ca','tabot.ece.mcgill.ca'],
-	'meyer':['amonhen.ece.mcgill.ca','emynmuil.ece.mcgill.ca'],
-	'test':['ce-tabot.ece.mcgill.ca'],
-	'aries':['aries.ece.mcgill.ca'],
-	'tux':['132.206.19.82'],
-	'smbtest':['c017.ece.mcgill.ca'],
 }
 #env.parallel=True
 
