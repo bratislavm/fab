@@ -84,8 +84,6 @@ def gcc_compat():
 	run('yum -y install %s' %packages)
 
 #VAS
-def vasjoin():
-	run('/opt/quest/bin/vastool - u bratislav.mladjic@campus.mcgill.ca join -f -w campus.mcgill.ca')
 
 def vasflush():
 	run('vastool flush')
@@ -165,9 +163,6 @@ def ECE():
 	run('cat /var/named/chroot/var/named/ECE.McGill.CA')
 
 #@aries
-#def clsexport():
-#	with settings(user="bratislav.mladjic",host_string="storm.ece.mcgill.ca")
-#	run('ls -al /export/')
 
 #@parallel
 #def pcmd(cmd):
